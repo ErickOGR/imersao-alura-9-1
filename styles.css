@@ -167,3 +167,46 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1850px;
+    background: linear-gradient(90deg,#af2896, #509bf5 );
+    padding: 20px;
+    position: fixed;
+    bottom: 10px;
+}
+
+.footer .footer__content {
+    color: #fff;
+    font-size: 15px;
+    margin: 1px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer .footer__content .title {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.footer .footer__content .subtitle {
+    font-weight: 500;
+}
+
+.footer .footer__button {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer__button button {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    width: 170px;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
